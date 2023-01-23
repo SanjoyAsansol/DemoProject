@@ -4,17 +4,17 @@ import org.testng.annotations.Test;
 
 public class RegressionClass {
 	
-	@Test
+	@Test()
 	public void regressionTest1()
 	{
 		System.out.println("------Regression Test1-------");
 	}
-	@Test(groups= {"smoke"})
+	@Test(groups= {"regression"})
 	public void regressionTest2()
 	{
 		System.out.println("------Regression Test2-------");
 	}
-	@Test(groups= {"smoke"})
+	@Test(groups= {"regression"})
 	public void regressionTest3()
 	{
 		System.out.println("------Regression Test3-------");
